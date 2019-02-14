@@ -1,0 +1,34 @@
+.UserDetails {
+    width: 70%;
+    padding: 30px 10px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.userImage img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.detailsSection{
+    padding: 20px;
+}
+
+.detailsSection h4{
+    margin: 10px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.wrapper > div{
+    width: 40%;
+}
